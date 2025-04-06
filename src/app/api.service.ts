@@ -10,7 +10,7 @@ export class ApiService {
 
   connect(): void {
     if (!this.socket) {
-      this.socket = io('http://localhost:3000');
+      this.socket = io('https://back-production-0e6e.up.railway.app');
     }
   }
 
